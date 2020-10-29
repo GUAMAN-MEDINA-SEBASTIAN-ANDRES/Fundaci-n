@@ -1,5 +1,5 @@
 .gradient {
-    background: linear-gradient(90deg, #d83c70 0%, #daae51 100%);
+    background: linear-gradient(90deg, #152fc4 0%, #daae51 100%);
 }
 
 .carousel-open:checked + .carousel-item {
@@ -48,7 +48,7 @@ ul {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
   }
   
