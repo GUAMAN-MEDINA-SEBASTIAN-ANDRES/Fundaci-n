@@ -1,5 +1,9 @@
+.body { 
+  background-color: #FF0000; 
+}
+
 .gradient {
-    background: linear-gradient(90deg, #d83c70 0%, #daae51 100%);
+    background: linear-gradient(90deg, #152fc4 0%, #49d85c 100%);
 }
 
 .carousel-open:checked + .carousel-item {
@@ -31,3 +35,28 @@
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  

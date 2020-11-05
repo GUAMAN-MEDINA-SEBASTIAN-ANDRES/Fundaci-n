@@ -10,6 +10,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 	<link rel="StyleSheet" href="model/fundaion.css" type="text/css">
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -22,7 +26,7 @@
 			<div class="pl-4 flex items-center">
 				<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
 					href="#">
-					Fundacion
+					FDJE
 				</a>
 			</div>
 
@@ -34,43 +38,44 @@
 
 			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
 				id="nav-content">
-				<ul class="list-reset lg:flex justify-end flex-1 items-center">
-					<li class="mr-3">
-						<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
-					</li>
-					<li class="mr-3">
-						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-							href="#">link</a>
-					</li>
-					<li class="mr-3">
-						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-							href="#">link</a>
-					</li>
-				</ul>
+				<ul class="list-reset lg:flex justify-end flex-1 items-center"></ul>
 				<button id="navAction"
-					class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Action</button>
+					class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">
+					DONACIÓN
+				</button>
 			</div>
+		</div>
+
+		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+
+		<!-- Menu -->
+		<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center" id="nav-content">
+			<ul>
+				<li><a>Quienés somos?</a></li>
+				<li><a>Qué hacemos?</a></li>
+				<li><a>Educación en Diabetes</a></li>
+				<li><a>Servicios</a></li>
+			</ul>
 		</div>
 
 		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 
 	</nav>
 
+	<br>
+
 	<!--Hero-->
 	<div class="pt-24">
-
 		<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 			<!--Left Col-->
 			<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-				<p class="uppercase tracking-loose w-full">What business are you?</p>
-				<h1 class="my-4 text-5xl font-bold leading-tight">Main Hero Message to sell yourself!</h1>
-				<p class="leading-normal text-2xl mb-8">Sub-hero message, not too long and not too short. Make it just
-					right!</p>
+				<h1 class="my-4 text-5xl font-bold leading-tight">Fundación Diabetes Juvenil Ecuador</h1>
+				<p class="leading-normal text-2xl mb-8">
+					Nunca renuncies a tu determinación de luchar y ganar.
+				</p>
 			</div>
-
 			<!--Right Col-->
 			<div class="w-full md:w-3/5 py-6 text-center">
-
 				<!--Carucel-->
 				<div class="carousel relative shadow-2xl bg-white">
 					<div class="carousel-inner relative overflow-hidden w-full">
@@ -92,7 +97,7 @@
 						<div class="carousel-item absolute opacity-0" style="height:50vh;">
 
 							<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center"
-								src="hero.png">
+								src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMVFRUXFxUXFxcXGBcYGBgdFxcXFxcXFxUYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0lHx0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTUtLf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAADAAMBAQAAAAAAAAAAAAAAAQIFBgcDBP/EAEQQAAIBAgMEBQgIBAQHAQAAAAECAAMRBBIhBQYxQRMiUWFxFDJzgZGSstEHJDRCUlOhsSNigsFDcpOiMzVjZKOz4RX/xAAaAQEBAAMBAQAAAAAAAAAAAAAAAQIEBgUD/8QAMREAAgECAwQIBwADAAAAAAAAAAECAxEEEjEFIVFxExUyM0JhkaEiNEFSgbHhI8HR/9oADAMBAAIRAxEAPwDIkxkCecoDScwd2UIESbSgJQxFYWhaFpAMSjJywtKQZAiAhaICCjIERWMeMVoAWhDLALICWEAIz4xLBSjC0LRBYIPLHaICMiAPSNRIIjAlIUBrJYREQIgoWjAEm0RkBbQsJ5mUFgWKAEDJtHaABWFoEXhaAMCU0gLGRKQogSYWk2gqLNpNoCFoBF5SyJQkMi7QMkmAaUxKEYgIXggjETK1kGCooGBiiJkBR8IASQ0sSkYgYrzp2ycKhoUiUU3p0/uj8In1eSU/y090fKehHZ7aTzHjS2xGMmsmnn/DkrGAM615JT/LT3R8oeSU/wAtPdHyl6uf3exOu4/Z7/w5OTAzqOLOHpLmq9Ei9rZVH6zW8dvvs6ncAdIR+CkLe1rAyrZsno/Yj23FeD3/AIamTC8zTfSLhOWEc+qkP7z1o/SHgibPhqi9+Sm37NMuq58fYx69h9vv/DAQZpvezd49n1zZHpBvwuuQ+rMBf1TOeSU/y090fKY9WyXi9jJbai/B7/w5NnjJnWPJKf5ae6PlDySn+Wnuj5SdXS+72L11H7Pf+HJ7xNOs+SU/y090fKaLv0oXEqqgAdEpsBbi7/KfKtg3ThmuffDbTVeooZbfk168oGRKE0j1T0tFJJgGghQheMQvKQTQJhEYZUNTGRJtExkBRiiDSxAPO0eSMRwCLQEu8LwLivCMSbQD0UxWESwlJYWWTlnpFeCkCVHeK0A6nsf7PR9FT+AT658mx/s9H0VP4BPqdwASSAALknQADiSZ0dPsrkcRV7cubFUqBQWYgAC5JNgAOJJPATnu8P0hMzdBgFzMTbpCC1z/ANOn97xPsmN3h23X2pXGEwoPQ38M9v8AEc8kHIeHMgDatl7IobNphkRqrE5atZRmKacco1VAdLD1z7qKWp8G29DWMLuRicQemx9fo7/iOZ+Go1OVO22vDhM3hd3Nl0svVNcnNYsxa+QXIKghb91p4rSxGICMR0zsFZWt/BseNyLKMrgHQ3IVbcTPdMBRpWFeuLhSpSjc8MpQl+ZXKBqLGwuJKlWMFeckl6GUKTk7JXZ6Ji9ni4XBU7qoYjo6Y0IZhbMNeqt/AjjFUGzagPSYRUAJUnIFswUsUDIQb2F/b2G3z9JgwAoGINly5roCQPNBt2Cw7+d5dNMGVKLUq01JBy1BnTzcjcDm1Xqnrfub6qx+Gbt0i9T7vCVUr5H6Hhjfo/wdUA0Kj0WcHKjHMDY/hbrced5hHO09km9+koDxel4dtM+z1zbMZsp6jI9Mq9Nejpr0bAsad1uWzcGH8QXBvlqGTgdtVFIFVQ9Kp0llAuVRSALADrL5y2tc2XS5NtuM7rijXcLeRkd1t7KONFl6lUDrU24+Kn7w/XumwTmO826YVfLdmsQBZyiHzba56dvG+X2aaTZNxt6xjE6OpYV1Fzbg44Z1/uIlHddBS+jNqmg79j60voU+OpN+mg79/a19Cvx1Jo4zumels35hGu2jyyoTwjq7kWhaXeAMthcQMIxJywC0MCIljggssi09LRXkLcgCVcxgxXPbBQvCMAQggs0LwEIA7wDRgRgSkETJlECIAQAJizRxaQUARHFAQDqex/s9H0VP4BNK+k/brALg6V8z2NS3Gx82mO9j/btm5bNqBcLSZjYLRQk9gCAkznG5NHyzHVcbW81CauvAE3CA/wCVQfdE6egvhT4I4au/ja4tm07v7NTZlBMylqtVlFRhqQTfKt/wjgO035kCe2CpjpGxQd0oavrdWLN51N6bre1+sCCD1rcBMRiB5VXOWrRcVcyorEipTsuq5R1kZQLka3KnVZG9W1VUdGhPRUgFUXLFiBbVibt2XPeZ8MXiOhhdK8pbkuLM6FHO7N2S3t8EG2t4S11T+HTJNlXRmubktbvOvjreYqjduOnh85gWxlletUPmqzHuAF9JG7G+FDE1OiAZHPmhrda3GxB425S0NmwTU8S803x0XklofOrjptONBZYr1fNm39HTUZn0A4m7ernqZdCn0nmYc25EvlJ/psbeufPicA9cVVptldaLGm3JXcOFbxGXjyvMd9E+ObPVo1q+YWTIKj3Yt1s4UtqRa2nzn1rUaN8uSNuSMaM6ls2Z+rM4iVaLgpnRjwU2uwHZa61PDj3T72y40HK3RYnJl49SqouQrDsBJ79SNQSJe+yOopMKgFMuKbU8ovmfSlVSpxVkaxsOIvPhNJmoUsYmjFVZ7fi4Fx2a8R3zy50ZYT/LQ7K1j5cUehGoq9oVdXo/9M9Ni7WejUZWU6uekX7tM2GoPbe4JPEWYALYzAb47Lq4KtTx9ABAzXIQllR+zgOo4vpbtHMTYdqg1qa4mmAS7LTrUiSEdj1VZuVvNBvoV5EhZkMBhRisHVwrlWy3piopzKT5ysG5lWte3MET1qdWM4qcdGaFSm4txeqMzsTaS4mhTrpwcXt+E8GU+BuJp+/h+tL6FfjqT5PopxzJUrYR9CLuB2MpyVB8PsM+vfwfWl9Cnx1Jq4+NqbRvbKd66NfJhHYQFhPBOtFeFxCBgDEQYRqIwIIItFeUQIgBAC8WaMRCCiJj9cIwJAIQtGTDMIBMLyhFpAuF5QkkxqZQMiKMGBMEJtFaUCISFuRKhC8A3PeXFGnsgkcTQpJ74VT+hMxm4dA09mVaijrVGciy59BZPMGr2sxy89Z679G2yKfhh/2Ey30ef8vo27ap/wDK86il3K/H6OFq98/z+zHbCrtTo1anSKwSmAoHR3BawF8tyoBGUDMeDdk0DeHEXqLT5KMx8T/8/edV3poqtB2VVBd0zEAAtbgWI48Lazjm0mviKncQPYAJqwXS7QjfwQbXNux9KryYN28UrfhK56YtM1BlIuCNfaNJ8O7W7tM4mnVVWVaWo46tYjUnjrMrRQnJZGY3IGW/Eq2hy6i+ljyIvPHZuPFCobJUFJutYkMwOnW0t29muk9apTTak3oefSm1FxS1Nm2/jmoYbEOpIJXDpcaGzNWJAPeF9l5zCvjWuRooPDmfG3gDOgbbdcThGK6Kz4axbTg9dCTY8OtOXsWBtYjlwt3cT65qyjCc23vNmDlCCRuuy8NUzDpcTUK06gApEsQSo6pALEDnwHPvnXd2KQOEpqRoVZSO7MwtOP7FxPSkPbj0bHxIF/1BnZt3B/AT+v42nxotyh8Wp9Ku6W4w2zFdTicMGIZkqBSOIZQcpA8D+krdWvTFayKwzIoqZrMQ5BcIXuxeykG5PBltrmt7nq7RFuZH605taUwOAAmns15YTp/SMmlyNrGb5Rn90Uzl1UeT7eFtFdwf9anY/wC4mZTfz7UvoU+OpMdvp/zjDW/7b/2t/aZHfs/Wl9Cvx1Js4/uS7K+ZMAIRkwuJzx1xJERlxQLgDGIGCmUDtFHeBMEJtEZQIgLSFIjjheABELRLGIAQywMdoAiscVowIAgIyJEpYAWhpCEAMsVhHljlBuG9WG6TY5AGq0aL+5kY/oDI+izEhsFl5pUcW/zWcfEZsOAoCphKdNh1WoopHcyAGc9+jzEthcbVwdU2zEr/AF0yctu4re3qnT0t9K3I4Wtuqt+bNz3lxGZXo5WuKYq5vu6NqvjYE6/rrbke16OXEMeTBWHssf2nW9pYdFxK1KhIzgKDrYKAQ6MOAU5gb9s0TevZLIxW12Qm38ynn7LH1GacpqhjKdV9mSyP9r3Ptk6bDTprWLzL9Mw2FTzTr1SrdU2OjC+ljfTNpafFiqATFIg6RkYsMpuNdaYF7C+ijWVjMStKkXcEqBqF42bq6e32XmFq71LWxuFFOmVQVEBLElmLlRf+UA37b3M9qpKNrM8uknqjZ6eHYUBRqFUzdcqxNwM905aa/vMJS+j8V26mJJzDMFzDgTyBW9tP0nQaezw1UVSeChcttDYkg38Tw7hPbAbDKZMtUgoCAcq+aeIN/AG4twE+XQxR9umcjT9gbvdCFVKqP/wwLsQTe5Uebrex9k67sSgyUlV7ZtSQDcC7E2B58Zr+C3dFN81KoVHU6pGbzAVFmJ04k85mtq48UaZIPWa4Uf38B8pr1clGDk9EfaGarJRWrMZhawbG1Kp81A7E9yrlm2YXECoi1FvlYBhcWNjw0M0unTFHBvUd1RqxVFLWsFvc3v2i54HloeB2GjijhcF0tdrlKZZr28VQWVRzCjQeE8/Z0JdDnlrNuXqbeLkukyrSKS9DRcYfKNvKBqEdB/pJmb/cDMlv6PrS+hT46k+L6KsI1WvXxj6nVQe16hzvbwFvfn27/n60voV+OpPvtDurcLH02T8wnzMDaFpKyrTnzrQ0hlhC0ALRiAhaAAECJJMYlFgtCEJAGWFoWhaASDFeTHeDKxQaItJhILFgywJKpLEqMWSYXEZnmxgahePPIhIZWLvBZE9AkqIzqmxvs9H0VP4BNE+k7YzI6Y+jcFSoqEcVIPUqfsPUs3vY/wBno+ip/AJ9FeirqUcBlYEEHgQdCDOmoytFPyOGrK85c2a1s3HptPB3Uhaotm/kqDgRcGwPEHiL6ajT46QOKXoHXJiKItqdGtpbUk2Nrgkk8eNmms7R2dX2PiRWoXagxsL3IIP+HU7+xu7xE3DCV6G0VGIw75K6CxFyGX+WoB5y34HX2Eg2vQhVg4SV4sxpVZQkmtUcw372FWai6UUuwYFqfA6a9Uc+Wnsml0NmrQ2hhaRNxnoMb9pP6dYfpO+18QHBp4yk61VvldQOsNLHNfKwFxc8NDw0mK2juclVkcCjWIa6NdRUBQ3sDfiLcLzQVXE4b4Zxc4rRrtW819TadOjW3weRvVPS/P6HtheUyVCYwbOxS6Cm/ugz6Key8W+mVlHeQv7azYltem+zTm3wymvHZ01rONuZkMRtFKQ1N25KOPr7J8Wz8G2Kfpqxy0hYXOgOuiL3X5z0TZdCgDUxFQPly3VeAzmy5j3nwnvQw1TGXurUaGYFRzbLkysgI0UgEWI4N23ms6VbFyUq6ywXh48/+GwpU8OrUt8n4uHI+nB4JqtbO6lFpt5mVwGIsFIJOVhZaY4fc/m01T6QttHE1kwGH63WGe33n5J4LxPf/ln17476rTHkuDOZ/MNRdQnLKlvOflccPHh9u4G6Pkw8orj+Mw0U69GDx/rPP2ds9WKyq7/Bot33I2LdzZC4TD06C65Rdj+Jjqze39AJqO/32tfQr8dSdAnPt/vta+hT46s0Ma70mensvdiImBBiLSTFPCOtsXmhmkQMCxYlgSFSWDBixEQBjMhjAC8WaKKDKyKvGDIl9EYDsIrDLLhBLkWhLvGIFxeqEJNoIXlkES1tEYFyMsLS4yYLcgR3lSYIdU2N9no+ip/AJ9c+TY32ej6Kn8An1zpKfYXI4ir25c2eWJw6VEKVFDKwsVIuCJzjbe4tfD1PKNnuxsb5L2qL2hW++v8AKf1nSww114ce7xgCOE+sZNHycUzmWB3/ALjodoYfNbQnKLg6jrUn0BseVuPCZXC4vB18ppY1KWQtkU3Q6kHr9K13NlUXB5d9ptW09k4fEdWtTSobaXAzAdzDUCaptH6NsJYutSpSABJuwZQBcknMLgDxmd48jG0kZSns+odRjgy3YofOIuHsSc/WtmTsFgeZBEeTrS6TyjaC2dCou6qVva5BdjfUcLc/bp2z9xaNdiKONDZQGINHUBgCpIz3W4IIzAEjUTx2Lulg8RUFNcYzllzrlpBQy3YZ1ux6t0bW3IX4i9yrj7C74GwjePZuDzmiXxFRvOI1Btb7zWUDQebfhMPiNtbQ2oTSooadLgwW4W3/AFKx46chbwM23ZW4mBpG4U1WHEu2YA96iy+0TZaeRbU1yrYaKLCw7lHKY5orQWb1Na3T3KpYS1R7VK1vOI6qafcH9+PhNqkJVU8GB8CDKVgeBvMG29TNJIc0Dfxfra+hT46s3+aDv59qX0KfHUmpjO6Z6GzPmF+TXSkWWXaE8I6y5FoWl6RiBcUUd5NoIXlkFZawMC555YWlwvBbkiVm7o5N+6AMQtGFELSkFeKO0JAOAgqxhRKQRMQjKwCiCitC8dorQA0gYRWkB1TY32ej6Kn8An1kTHbIxVMYeiC6AinT0zD8In1+WU/zE94fOdJT7K5HE1V8cubOdYXY+LS+FejWq0xiGpmr0pUOjEVqdSon+IupSoSeGguZVbY2KoPiKKUq9ai1RStSnV6N+jxAyMoOmZqTXIBsoVj3W6H5XT/MT3h84eV0/wAxPeHzn36U+WU5/itjYrCVqvQUqlam1OnWApuaeVlISrQQgXsRZ1UW1QX5g5WrgWXDtgKK1qbtSDtUyZ1OhBps/BnYJlYg3u9xe5I2vyun+YnvD5w8rp/mJ7w+cjqXFjmFLCYxmRzRrJRq0VW1OkAaNVBTDNUpuDcELUUOVNg2g5zFJVrFmGHSoXXC0VIFLoHLdLVeqVpA9QvS6W2U89J1raa0a9J6L1QFdSrFXCtY8bMDpPLZmEw9AdSopNrZmdS3L1DgOA5TNVlbQmU03djHVqVZn6DEmm90X+BVQKzEMobOzNYKpHJFJ0NmNsb/APi43EZ0q0sRTrLTqq9W/wDAqHitRSH1c8gFuC2rWULOp+V0/wAxPeHzh5XT/MT3h85j0u+6Rcpynoqi5K1ZHRamFsULLTei6Hrv0Nw1mUecASTfk03zcimVwyg3JtTuSgplj0NK5KDzTe9xyIInptHZGDr1lruwFVRlDpWamxXjkYowzLc8DMnRrUUAVXpgDgAy/OJ1E0Ej6ZoO/h+tL6FPjqTePLKf5ie8PnNE33dWxSlSG/goNNfv1OYmjjO6Z6GzPmEYKAjyiAE8M6sV4Q0hlkAxAQUR5ZSCJilFYgogooXjAisIApVorQyyAd4jEWlZoAhGYs0dxAANC8RheUDjiBjvBBRCUW7IswgooEx3iMgIKeEYpjslXivLdkcUySg7oZR2CMiAi7LlXAOjHZAIJRMAYzMmVcCMg7BKCDsEdxGTLmZHFcBFR2RdGOyUWEYbtjMxlXAjox2CLoh2T0zRMYuxlXAgII1Ed4w0XZcq4BeIwZ4ZpiUUomLN2x5oAs0eaBtFeUDBjAk3lMYASZRaLNBBEwue2PNDSCnmBLEcJCsVo4QlIAELQhAAR2hCCCtC0IQAgBCEgC0IQlBJgsISGRUVoQggWjhCUAYwIQgCtAwhAFaIiEJATaWBCEIrHCEIMQtC3dCEoACBEISBDsJJjhKwHqgAIQgp/9k=">
 						</div>
 						<label for="carousel-1"
 							class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -111,22 +116,6 @@
 							class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
 						<label for="carousel-1"
 							class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-
-						<!-- Add additional indicators for each slide-->
-						<ol class="carousel-indicators">
-							<li class="inline-block mr-3">
-								<label for="carousel-1"
-									class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-							</li>
-							<li class="inline-block mr-3">
-								<label for="carousel-2"
-									class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-							</li>
-							<li class="inline-block mr-3">
-								<label for="carousel-3"
-									class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-							</li>
-						</ol>
 
 					</div>
 				</div>
@@ -162,75 +151,74 @@
 		</svg>
 	</div>
 
-
-	
 	<section class="bg-white border-b py-8">
-		
+
 		<div class="container max-w-5xl mx-auto m-8">
 
 			<!--Noticias-->
 			<div class="flex flex-wrap flex-col-reverse sm:flex-row">
 				<div class="w-full sm:w-1/2 p-6 mt-6">
-					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="hero.png">
+					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="http://www.fdje.org/cache/a/aac27b5b1f9dd141839f20b79b460af4.jpg">
 				</div>
 				<div class="w-full sm:w-1/2 p-6 mt-6">
 					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-				<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-					ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-
-					Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Noticias</h3>
+						<p class="text-gray-600 mb-8">
+							Enterese de los nuevos eventos, talleres y entrevistas que van pasando en nuestra comunidad.
+						</p>
 						<div class="flex items-center justify-end">
-							<button
-								class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+								Ver Mas
+							</button>
 						</div>
 					</div>
 				</div>
 
 			</div>
 
-			<!--Noticias-->
+			<!--NUESTRA FUNDACIÓN-->
 			<div class="flex flex-wrap">
 				<div class="w-5/6 sm:w-1/2 p-6">
-					
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-							<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-					<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-						ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-						Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-							<div class="flex items-center justify-end">
-								<button
-									class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-							</div>
+						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">NUESTRA FUNDACIÓN</h3>
+						<p class="text-gray-600 mb-8">
+							Somos una organización que contribuye a mejorar la calidad de vida de la comunidad con DM1, 
+							promoviendo la educación para pacientes y su entorno.
+						</p>
+						<div class="flex items-center justify-end">
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+								Ver Mas
+							</button>
 						</div>
+					</div>
 
 				</div>
-				
-				<div class="w-full sm:w-1/2 p-6">
 
-					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="hero.png">
+				<div class="w-5/6 sm:w-1/2 p-6">
+
+					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="http://www.fdje.org/cache/4/04e9baac494795f84a53b3947ebdd3bb.JPG">
 				</div>
 			</div>
 
-			<!--Noticias-->
+			<!--CAMPO AMIGO-->
 			<div class="flex flex-wrap flex-col-reverse sm:flex-row">
 				<div class="w-full sm:w-1/2 p-6 mt-6">
-					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="hero.png">
+					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="http://www.fdje.org/cache/d/3d54c2233e8871e5822f9e801469542a.jpg">
 				</div>
 				<div class="w-full sm:w-1/2 p-6 mt-6">
 					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-				<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-					ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-
-					Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">CAMPO AMIGO</h3>
+						<p class="text-gray-600 mb-8">
+							Es una propuesta lúdica orientada a motivar a los niños, adolescentes y jóvenes con DM1 a manejar  su condición y tener mejor calidad de vida.
+						</p>
 						<div class="flex items-center justify-end">
-							<button
-								class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+								Ver Mas
+							</button>
 						</div>
 					</div>
 				</div>
@@ -240,104 +228,29 @@
 			<!--Noticias-->
 			<div class="flex flex-wrap">
 				<div class="w-5/6 sm:w-1/2 p-6">
-					
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-							<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-					<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-						ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 
-						Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-							<div class="flex items-center justify-end">
-								<button
-									class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-							</div>
+						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">JORNADAS FAMILIARES</h3>
+						<p class="text-gray-600 mb-8">
+							El equipo se desplaza hacia la comunidad con DM1 con el fin de reflexionar sobre temas que 
+							contribuyan a mejorar la calidad de vida de las personas.
+						</p>
+						<div class="flex items-center justify-end">
+							<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+								Ver Mas
+							</button>
 						</div>
+					</div>
 
 				</div>
-				
+
 				<div class="w-full sm:w-1/2 p-6">
 
-					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="hero.png">
+					<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="http://www.fdje.org/cache/c/0cd66e5c1c02e25eb5b208a6562370c8.jpg">
 				</div>
 			</div>
 		</div>
-	</section>
-
-	
-	<section class="bg-white border-b py-8">
-
-		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
-
-			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
-			<div class="w-full mb-4">
-				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-			</div>
-
-			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-						<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-						<p class="text-gray-800 text-base px-6 mb-5">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-							posuere et sit amet ligula.
-						</p>
-					</a>
-				</div>
-				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-					<div class="flex items-center justify-start">
-						<button
-							class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-						<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-						<p class="text-gray-800 text-base px-6 mb-5">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-							posuere et sit amet ligula.
-						</p>
-					</a>
-				</div>
-				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-					<div class="flex items-center justify-center">
-						<button
-							class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-						<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
-						<p class="text-gray-800 text-base px-6 mb-5">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-							posuere et sit amet ligula.
-						</p>
-					</a>
-				</div>
-				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-					<div class="flex items-center justify-end">
-						<button
-							class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
 	</section>
 
 	<!-- Change the colour #f8fafc to match the previous section colour -->
@@ -370,112 +283,47 @@
 
 	<section class="container mx-auto text-center py-6 mb-12">
 
-		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
-		<div class="w-full mb-4">
-			<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Contactanos</h1>
+		<div class="flex flex-wrap">
+			<div class="w-5/6 sm:w-1/2 p-6">
+
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+
+					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Nos Ubicamos:</h3>
+					<p class="text-gray-600 mb-8">
+						Quito y Guayaquil
+					</p>
+					<p class="text-gray-600 mb-8">
+						Telefono:094546985
+					</p>
+					<p class="text-gray-600 mb-8">
+						Horarios de atencion: Lunes a Viernes de 8:00 a 14:00,
+						Sabados de 8:00 a 12:00
+					</p>
+				</div>
+
+			</div>
+
+			<div class="w-full sm:w-1/2 p-6">
+
+				<img class="block h-full w-full bg-orange-500 text-white text-5xl text-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU0v7eyrhtZP0te27KU_5_PabF_z_sVE75Cw&usqp=CAU">
+			</div>
 		</div>
 
-		<h3 class="my-4 text-3xl leading-tight">Main Hero Message to sell yourself!</h3>
-
-		<button
-			class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
-
-	</section>
-
-
-	<!--Footer-->
-	<footer class="bg-white">
 		<div class="container mx-auto  px-8">
 
 			<div class="w-full flex flex-col md:flex-row py-6">
 
-				<div class="flex-1 mb-6">
-
-					<a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-						<!--Icon from: http://www.potlabicons.com/ -->
-						<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 512.005 512.005">
-							<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502"
-								transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)" />
-							<path class="plane-take-off"
-								d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z " />
-						</svg> LANDING
-
-					</a>
-				</div>
-
-
-				<div class="flex-1">
-					<p class="uppercase text-gray-500 md:mb-6">Links</p>
-					<ul class="list-reset mb-6">
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Help</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
-						</li>
-					</ul>
-				</div>
-				<div class="flex-1">
-					<p class="uppercase text-gray-500 md:mb-6">Legal</p>
-					<ul class="list-reset mb-6">
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
-						</li>
-					</ul>
-				</div>
-				<div class="flex-1">
-					<p class="uppercase text-gray-500 md:mb-6">Social</p>
-					<ul class="list-reset mb-6">
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
-						</li>
-					</ul>
-				</div>
-				<div class="flex-1">
-					<p class="uppercase text-gray-500 md:mb-6">Company</p>
-					<ul class="list-reset mb-6">
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Official
-								Blog</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">About
-								Us</a>
-						</li>
-						<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-							<a href="#"
-								class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
-						</li>
-					</ul>
-				</div>
+				<div class="container text-center">
+					<a class="cc-facebook btn btn-link" href="https://www.facebook.com/profile.php?id=100006880938184">
+					  <i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>				  
+					<a class="cc-google-plus btn btn-link" href="https://plus.google.com/u/0/?tab=mX">
+					  <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+				  </div>
 			</div>
 		</div>
 
-		<a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created
-			by freepik - www.freepik.com</a>
-
-	</footer>
+	</section>
 
 	<script type="text/javascript" src="scripts/hola1.js"></script>
 

@@ -22,8 +22,8 @@ document.addEventListener('scroll', function () {
             toToggle[i].classList.remove("text-white");
         }
         header.classList.add("shadow");
-        navcontent.classList.remove("bg-gray-100");
-        navcontent.classList.add("bg-white");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
     }
     else {
         header.classList.remove("bg-white");
